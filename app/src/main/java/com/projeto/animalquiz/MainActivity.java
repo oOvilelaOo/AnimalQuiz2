@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     // keys for reading data from SharedPreferences
     // chaves para ler os dados de SharedPreferences
-    public static final String QUESTIONS = "pref_numberOfQuestions";
+    public static final String QUESTIONS = "pref_numberOfQuestions" ;
     public static final String CHOICES = "pref_numberOfChoices";
     public static final String ANIMALS = "pref_animalsToInclude";
     public static final String INVERTEBRATES = "pref_invertebratesToInclude";
