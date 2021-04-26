@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vertebrates_list">
+        <item>Anfibios</item>
+        <item>Aves</item>
+        <item>Mamiferos</item>
+        <item>Peixes</item>
+        <item>Repteis</item>
+    </string-array>
+    <string-array name="vertebrates_list_for_settings">
+        <item>Anfibios</item>
+        <item>Aves</item>
+        <item>Mamiferos</item>
+        <item>Peixes</item>
+        <item>Repteis</item>
+    </string-array>
+    <string-array name="invertebrates_list">
+        <item>Terrestres</item>
+        <item>Aquaticos</item>
+    </string-array>
+    <string-array name="invertebrates_list_for_settings">
+        <item>Terrestres</item>
+        <item>Aquaticos</item>
+    </string-array>
+    <string-array name="questions_list">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="guesses_list">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+</resources>

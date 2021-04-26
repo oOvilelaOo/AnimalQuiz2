@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/questions_list"
+        android:entryValues="@array/questions_list"
+        android:key="pref_numberOfQuestions"
+        android:title="@string/number_of_questions"
+        android:summary="@string/number_of_questions_description"
+        android:persistent="true"
+        android:defaultValue="10" />
+    <ListPreference
+        android:entries="@array/guesses_list"
+        android:entryValues="@array/guesses_list"
+        android:key="pref_numberOfChoices"
+        android:title="@string/number_of_choices"
+        android:summary="@string/number_of_choices_description"
+        android:persistent="true"
+        android:defaultValue="4" />
+
+
+
+    <SwitchPreference
+        android:key="vertebrado"
+        android:title="Adicionar Vertebrados"
+        android:defaultValue="true"
+        />
+    <MultiSelectListPreference
+        android:entries="@array/vertebrates_list_for_settings"
+        android:entryValues="@array/vertebrates_list"
+        android:key="pref_animalsToInclude"
+        android:title="@string/world_vertebrates"
+        android:summary="@string/world_vertebrates_description"
+        android:persistent="true"
+        android:defaultValue="@array/vertebrates_list"
+        android:dependency="vertebrado"/>
+
+
+    <SwitchPreference
+        android:key="invertebrado"
+        android:title="Adicionar Invertebrado"
+        android:defaultValue="false"
+        />
+    <MultiSelectListPreference
+        android:entries="@array/invertebrates_list_for_settings"
+        android:entryValues="@array/invertebrates_list"
+        android:key="pref_invertebratesToInclude"
+        android:title="@string/world_invertebrates"
+        android:summary="@string/world_invertebrates_description"
+        android:persistent="true"
+        android:defaultValue="@array/vertebrates_list"
+        android:dependency="invertebrado"/>
+
+
+</PreferenceScreen>
